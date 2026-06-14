@@ -54,6 +54,14 @@ When you run the notebook, it executes the following stages:
 
 ---
 
+## Visual Results
+
+| Original Image | Ground Truth Mask | RSKT-Seg Prediction (Ours) |
+|---|---|---|
+| ![Original](assets/top_potsdam_5_14_RGB.tif) | ![GT](assets/top_potsdam_5_14_label_noBoundary.tif) | ![Prediction](assets/top_potsdam_5_14.png) |
+
+---
+
 ## Acknowledgments
 * **Original Architecture & Paper:** *Exploring Efficient Open-Vocabulary Segmentation in the Remote Sensing* (AAAI 2026). [Read the ArXiv Paper](https://arxiv.org/abs/2509.12040).
 * **Original Codebase:** [LiBingyu01/RSKT-Seg_and_Pi-Seg](https://github.com/LiBingyu01/RSKT-Seg_and_Pi-Seg)
