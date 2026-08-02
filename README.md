@@ -8,8 +8,8 @@ This project is formatted as a Jupyter Notebook (`.ipynb`) to serve as a visual,
 
 Zero-shot open-vocabulary models often struggle with massive satellite imagery because squishing a $6000 \times 6000$ image into a standard AI input size destroys critical pixel data. 
 
-* **Baseline Performance:** In the original RSKT-Seg paper, standard evaluation on the Potsdam dataset yielded a mean Intersection over Union (mIoU) of **~38%**. (Check the risk-postdam-baseline.ipynb)
-* **Improved Performance:** By engineering a high-overlap sliding window inference loop, the Vision Transformer can natively evaluate high-resolution patches. This pipeline boosts the mIoU to **>65%** without retraining or fine-tuning a single weight. (Check the risk_postdam.ipynb)
+* **Baseline Performance:** In the original RSKT-Seg paper, standard evaluation on the Potsdam dataset yielded a mean Intersection over Union (mIoU) of **~38%**. (Check the rskt-postdam-baseline.ipynb)
+* **Improved Performance:** By engineering a high-overlap sliding window inference loop, the Vision Transformer can natively evaluate high-resolution patches. This pipeline boosts the mIoU to **>65%** without retraining or fine-tuning a single weight. (Check the rskt_postdam.ipynb)
 
 ---
 
