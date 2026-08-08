@@ -56,8 +56,8 @@ When you run the notebook, it executes the following stages:
 
 ## Visual Results
 
-**| Original Image | Ground Truth Mask | RSKT-Seg Prediction (Baseline) | RSKT-Seg Prediction (Ours) |**
-|---|---|---|
+| Original Image | Ground Truth Mask | RSKT-Seg Prediction (Baseline) | RSKT-Seg Prediction (Ours) |
+|---|---|---|---|
 | ![Original](assets/top_potsdam_5_14_RGB.tif) | ![GT](assets/top_potsdam_5_14_label_noBoundary.tif) | ![Prediction baseline](assets/top_potsdam_5_14_baseline.png) | ![Prediction](assets/top_potsdam_5_14.png) |
 
 ---
